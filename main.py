@@ -1,3 +1,8 @@
+import Problema1
+from alumnos import alumnos
+
+
+
 
 '''
 Hasta ahora hemos  seguir escribiendo
@@ -26,16 +31,16 @@ usando un subindice
 '''
 
 # lista de enteros
-lista1 = {10, 5, 3, 9,}
+lista1 = [10, 5, 3, 9]
 # lista de decimales
-lista2 = {1.78, 2.66, 1.55, 89.4}
+lista2 = [1.78, 2.66, 1.55, 89.4]
 # lista de string
-lista3 = {"Lunes","Martes","Miercoles"}
+lista3 = ["Lunes","Martes","Miercoles"]
 '''
 lista de elementos
 de distinto tipo
 '''
-lista4 = {"Santi",45,1.92}
+lista4 = ["Santi",45,1.92]
 
 
 if __name__ == '__main__':
@@ -55,3 +60,11 @@ if __name__ == '__main__':
     print(lista1)
 
     print(lista1[3])
+
+    print()
+
+    Problema1.sumar_5_enteros()
+
+    print()
+
+    alumnos()
